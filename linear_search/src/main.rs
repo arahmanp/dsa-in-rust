@@ -8,7 +8,7 @@ fn main() {
     }
 }
 
-fn linear_search(arr: &Vec<i32>, x: i32) -> Option<usize> {
+fn linear_search(arr: &[i32], x: i32) -> Option<usize> {
     let size = arr.len();
 
     for i in 0..size {

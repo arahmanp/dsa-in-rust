@@ -8,7 +8,7 @@ fn main() {
     }
 }
 
-fn binary_search(arr: &Vec<i32>, x: i32) -> Option<usize> {
+fn binary_search(arr: &[i32], x: i32) -> Option<usize> {
     let mut left: usize = 0;
     let mut right: usize = arr.len() - 1;
 
